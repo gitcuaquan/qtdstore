@@ -1,0 +1,102 @@
+.content .thumb img {
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.content .thumb {
+    position: relative;
+}
+
+.content .thumb h3 {
+    margin: 0;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    color: #fff;
+    padding-left: 15px;
+    z-index: 3;
+}
+
+.user-name {
+    color: #f1c40f;
+}
+
+.content .thumb .background {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.content .col-lg-3 {
+    margin-bottom: 30px;
+}
+
+a.item {
+    display: block;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    box-shadow: 5px 5px 8px rgb(179, 179, 179);
+}
+
+a.item:hover {
+    box-shadow: 5px 5px 8px #888;
+}
+
+.bill {
+    background: linear-gradient(45deg, rgba(11, 85, 134, 0.6), rgb(90, 177, 235, 0.6));
+}
+
+.product {
+    background: linear-gradient(45deg, rgba(163, 31, 16, 0.6), rgb(231, 76, 60, 0.6));
+}
+
+.user {
+    background: linear-gradient(45deg, rgb(22, 160, 133, 0.6), rgb(26, 188, 156, 0.6));
+}
+
+.money {
+    background: linear-gradient(45deg, rgba(184, 113, 0, 0.6), rgb(241, 196, 15, 0.6));
+}
+
+.category {
+    background: linear-gradient(45deg, rgba(15, 141, 68, 0.6), rgba(46, 204, 113, 0.6));
+}
+
+.qlqc {
+    background: linear-gradient(45deg, rgba(110, 38, 141, 0.6), rgba(155, 89, 182, 0.6));
+}
+
+.sale {
+    background: linear-gradient(45deg, rgba(211, 84, 0, 0.6), rgba(240, 142, 77, 0.6));
+}
+
+.info {
+    background: linear-gradient(45deg, rgba(116, 65, 0, 0.6), rgba(240, 175, 77, 0.6));
+}
+
+.num {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.item-title {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.view-more {
+    color: #fff;
+}
+
+.item:hover .view-more {
+    color: #eee;
+}

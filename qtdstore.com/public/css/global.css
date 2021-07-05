@@ -1,0 +1,104 @@
+.text-right {
+    text-align: right;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+ul.clear {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+
+/* pagging */
+
+ul.pagging {
+    display: flex;
+    margin-bottom: 35px;
+    justify-content: flex-end;
+}
+
+ul.pagging li {
+    margin-right: 5px;
+}
+
+ul.pagging li a {
+    display: inline-block;
+    padding: 5px 8px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid rgb(78, 138, 153);
+}
+
+ul.pagging li.active a {
+    background: rgb(78, 138, 153);
+    color: #fff;
+}
+
+
+/* error */
+
+p.error {
+    color: #e03550;
+    font-size: 13px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+p.success {
+    color: rgb(78, 138, 153);
+    font-size: 13px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+p.cart-alert {
+    margin: 0;
+    padding: 15px;
+}

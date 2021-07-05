@@ -1,0 +1,299 @@
+h1 {
+    margin-bottom: 15px;
+}
+
+p.num-product-total {
+    margin: 10px 0 70px 0;
+    color: #555;
+}
+
+p.num-product-total span {
+    color: #000;
+}
+
+table.cart-table {
+    border-collapse: collapse;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 8px #eee;
+    width: 100%;
+}
+
+table.cart-table thead {
+    background: rgb(78, 138, 153);
+    border-radius: 3px;
+}
+
+table.cart-table thead tr td {
+    font-weight: 500;
+    font-size: 13px;
+    padding: 15px 0;
+    color: #fff;
+}
+
+.num-status {
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+.num-status.stocking {
+    border: 1px solid rgb(0, 117, 59);
+    color: rgb(0, 117, 59);
+}
+
+.num-status.out-of-stock {
+    border: 1px solid #e03550;
+    color: #e03550;
+}
+
+button.btn-update {
+    border: 1px solid #888;
+    background: #eee;
+    width: 100px;
+    text-align: center;
+}
+
+p.alert {
+    margin-bottom: 10px;
+    padding: 100px 0;
+    text-align: center;
+    background: #fff;
+    font-size: 16px;
+    box-shadow: 0 0 8px #eee;
+}
+
+button.btn-choose-size {
+    border: none;
+    background: rgb(78, 138, 153);
+    width: 80px;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    margin-left: 10px;
+}
+
+.select {
+    width: 45px;
+}
+
+input[type="number"] {
+    padding: 8px 5px 5px 6px;
+    width: 50px;
+    font-size: 13px;
+}
+
+input[type="number"]:focus {
+    outline: none;
+}
+
+a.product-thumb {
+    display: block;
+}
+
+table.cart-table tbody tr {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.product-code,
+.product-size {
+    font-weight: 500;
+}
+
+a.product-title {
+    font-size: 13px;
+    font-weight: 500;
+    color: #888;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.product-title:hover {
+    color: #e03550;
+}
+
+table.cart-table tbody tr td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+table.cart-table tbody tr td p {
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.product-price,
+.product-sub-total {
+    font-weight: 500;
+    color: #e03550;
+}
+
+table.cart-table tbody tr td:first-child {
+    width: 5%;
+}
+
+table.cart-table tbody tr td:nth-child(2) {
+    width: 15%;
+}
+
+table.cart-table tbody tr td:nth-child(3) {
+    width: 10%;
+}
+
+table.cart-table tbody tr td:nth-child(4) {
+    text-align: left;
+    padding: 15px;
+    padding-right: 0;
+    width: 28%;
+}
+
+table.cart-table tbody tr td:nth-child(5) {
+    width: 12%;
+}
+
+table.cart-table tbody tr td:nth-child(6) {
+    width: 12%;
+}
+
+table.cart-table tbody tr td:last-child {
+    position: relative;
+    width: 18%;
+}
+
+a.like {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+a.btn-del {
+    display: inline-block;
+    padding: 1px 2px;
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    text-decoration: none;
+    color: #888;
+}
+
+a.btn-del:hover {
+    color: #000;
+}
+
+table.cart-table tbody tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+
+/* cart total */
+
+.discount {
+    background: #fff;
+    box-shadow: 0 0 8px #eee;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.discount p {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.discount p:first-child {
+    margin-bottom: 15px;
+    border-bottom: 3px solid rgb(78, 138, 153);
+}
+
+.discount p.suggest {
+    display: block;
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
+}
+
+.discount p span:last-child {
+    font-weight: 400;
+    color: #888;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.discount select {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.discount select {
+    outline: none;
+}
+
+table.cart-total-table {
+    background: #fff;
+    box-shadow: 0 0 8px #eee;
+    width: 100%;
+}
+
+table.cart-total-table tr td {
+    font-size: 13px;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.product-discount-value {
+    font-weight: 400;
+}
+
+table.cart-total-table tr td:last-child {
+    text-align: right;
+}
+
+table.cart-total-table tr:last-child td {
+    font-size: 16px;
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+}
+
+.product-total {
+    color: #e03550;
+    font-size: 18px;
+}
+
+a.btn-checkout-process {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid rgb(56, 100, 110);
+    background: rgb(78, 138, 153);
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-checkout-process:hover {
+    background: #e03550;
+}
+
+
+/* responsive */
+
+@media screen and (max-width: 768px) {
+    table.cart-table {
+        width: 992px;
+    }
+    p.num-product-total {
+        margin-bottom: 10px;
+        color: #555;
+    }
+    .cart-list {
+        max-height: 453px;
+        overflow: auto;
+    }
+    .cart-checkout {
+        margin-top: 20px;
+    }
+}

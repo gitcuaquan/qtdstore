@@ -1,0 +1,33 @@
+#slider {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+a.carousel-item {
+    display: block;
+}
+
+button:focus {
+    border: none;
+    outline: none;
+}
+
+.slider-carousel .owl-dots {
+    position: absolute;
+    display: inline-block;
+    bottom: 5px;
+    left: 47%;
+}
+
+.slider-carousel.item {
+    position: relative;
+}
+
+.slider-hot {
+    position: absolute;
+    top: 32%;
+    right: 30%;
+    width: 10%!important;
+    height: auto;
+    transform: rotate(35deg);
+}

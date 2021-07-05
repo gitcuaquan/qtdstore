@@ -1,0 +1,250 @@
+/* ========= category ======== */
+
+.sidebar-box {
+    border: 1px solid #4e8a99;
+    margin-bottom: 35px;
+    box-shadow: 0 0 8px #eee;
+}
+
+.sidebar-box-head {
+    padding: 8px 15px 5px 15px;
+    background: rgb(78, 138, 153);
+}
+
+.sidebar-box-head h3 {
+    margin: 0;
+    color: #fff;
+}
+
+ul.cate-list li {
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+ul.cate-list li a {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+}
+
+ul.cate-list li:hover a {
+    display: block;
+    color: #e03550;
+    background: #f1f1f1;
+}
+
+ul.cate-list li:hover a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background: rgb(78, 138, 153);
+}
+
+ul.cate-list li:hover a::after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border-left: 5px solid #e03550;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+ul.sub-cate {
+    position: absolute;
+    top: 0;
+    right: -210px;
+    visibility: hidden;
+    opacity: 0;
+    border: 1px solid rgb(78, 138, 153);
+    width: 200px;
+    transition: all .2s;
+    z-index: 999;
+}
+
+ul.cate-list li:hover>ul.sub-cate {
+    right: -200px;
+    visibility: visible;
+    opacity: 1;
+}
+
+ul.cate-list li:hover>ul.sub-cate li a {
+    background: #fff;
+    color: #000;
+}
+
+ul.cate-list li:hover>ul.sub-cate li a::before {
+    width: 0;
+}
+
+ul.cate-list li:hover>ul.sub-cate li a::after {
+    border: none;
+}
+
+ul.cate-list li:hover>ul.sub-cate li:hover a {
+    color: #e03550;
+    background: #f1f1f1;
+}
+
+ul.cate-list li:hover>ul.sub-cate li:hover a::before {
+    width: 5px;
+}
+
+
+/* ==== featured product ====== */
+
+ul.featured-list li {
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+
+ul.featured-list li:hover {
+    background: #f8f8f8;
+}
+
+.featured-item-thumb {
+    max-width: 30%;
+    margin-right: 10px;
+}
+
+.featured-item-thumb a {
+    display: block;
+}
+
+.feature-item-info a.item-title {
+    display: block;
+    max-height: 40px;
+    overflow: hidden;
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #555;
+}
+
+.feature-item-info a.item-title:hover {
+    color: #e03550;
+}
+
+.feature-item-info p {
+    margin: 0;
+}
+
+.feature-item-info p .sidebar-new-price {
+    font-weight: 500;
+    color: #e03550;
+}
+
+.feature-item-info p .sidebar-old-price {
+    color: #888;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+
+/* ads */
+
+.sidebar-bottom {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+
+.sidebar-bottom h4 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    color: rgb(16, 92, 122);
+    text-shadow: 0 0 3px #9e9e9e;
+    z-index: 8;
+}
+
+.sidebar-bottom h5 {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    text-align: center;
+    color: red;
+    text-shadow: 0 0 3px #9e9e9e;
+    z-index: 8;
+}
+
+.sidebar-bottom a.btn-view-detail {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    display: block;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    background: rgb(16, 92, 122, 0.7);
+    z-index: 8;
+}
+
+.sidebar-bottom a.btn-view-detail:hover {
+    background: rgb(16, 92, 122);
+}
+
+.sidebar-bottom img.hot {
+    position: absolute;
+    top: 25px;
+    right: 50%;
+    width: 50px;
+    height: auto;
+    z-index: 9;
+}
+
+
+/* = responsive === */
+
+@media screen and (max-width: 992px) {
+    .sidebar-box-head {
+        padding: 8px 5px 5px 5px;
+    }
+    .sidebar-box-head h3 {
+        font-size: 12px;
+    }
+    ul.cate-list li a {
+        padding: 10px;
+        font-size: 12px;
+    }
+    ul.sub-cate {
+        right: -130px;
+        width: 120px;
+    }
+    ul.cate-list li:hover>ul.sub-cate {
+        right: -120px;
+    }
+    ul.featured-list li {
+        padding: 10px;
+    }
+    ul.featured-list li:hover {
+        background: #f8f8f8;
+    }
+    .feature-item-info a.item-title {
+        font-size: 13px;
+    }
+    .feature-item-info p .sidebar-new-price,
+    .sidebar-old-price {
+        font-size: 13px;
+    }
+    .sidebar-bottom {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+}

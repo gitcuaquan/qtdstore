@@ -1,0 +1,40 @@
+form {
+    width: 100%;
+    overflow: hidden;
+}
+
+#search-box {
+    padding: 5px 10px;
+    width: 200px;
+    font-size: 13px;
+    border: 1px solid #888;
+}
+
+#search-box:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgb(78, 138, 153);
+}
+
+#search {
+    padding: 5px 0;
+    color: #fff;
+    text-align: center;
+    width: 80px;
+    font-size: 13px;
+    border: none;
+    background: rgb(78, 138, 153);
+}
+
+#del {
+    padding: 5px 0;
+    color: #fff;
+    text-align: center;
+    width: 50px;
+    font-size: 13px;
+    border: none;
+    background: #e03550;
+}
+
+button:focus {
+    outline: none;
+}

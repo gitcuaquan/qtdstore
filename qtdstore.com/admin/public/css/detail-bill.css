@@ -1,0 +1,54 @@
+input,
+select {
+    width: 30%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+}
+
+label {
+    margin: 0;
+}
+
+#del {
+    margin-top: 30px;
+    border: none;
+    background: #e03550;
+    color: #fff;
+    width: 60px;
+}
+
+#edit {
+    border: none;
+    background: rgb(78, 138, 153);
+    color: #fff;
+    width: 70px;
+}
+
+#confirm {
+    border: none;
+}
+
+.bg {
+    background: black;
+    color: #fff;
+}
+
+button:focus {
+    outline: none;
+}
+
+p.row-info {
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.main-content h1 {
+    margin: 0;
+}
+
+a.view {
+    display: inline-block;
+    margin-bottom: 10px;
+}

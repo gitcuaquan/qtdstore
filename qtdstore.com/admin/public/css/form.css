@@ -1,0 +1,232 @@
+form#infomation {
+    padding-left: 2px;
+    width: 100%;
+}
+
+form label {
+    font-weight: 500;
+}
+
+form input[type="text"],
+form select,
+form textarea,
+form input[name="product_thumb_avt"] {
+    margin-bottom: 10px;
+}
+
+#show_list_file {
+    margin-top: 15px;
+}
+
+.product-thumb-show-avt img {
+    width: 150px;
+    height: 200px;
+}
+
+form select {
+    padding: 5px;
+    width: 20%;
+}
+
+form input[type="text"] {
+    width: 35%;
+    padding: 5px;
+    border: 1px solid #888;
+}
+
+form input[type="file"] {
+    border: none;
+    padding: 0;
+}
+
+form textarea {
+    padding: 5px 10px;
+    width: 50%;
+    height: 150px;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus,
+form button:focus {
+    outline: none;
+    box-shadow: 0 0 2px rgb(78, 138, 153);
+}
+
+form button {
+    padding: 5px 10px;
+    border: none;
+    color: #fff;
+}
+
+.btn-upload,
+.btn-add-new {
+    background: rgb(78, 138, 153);
+}
+
+.btn-make-new {
+    background: #e03550;
+    ;
+}
+
+#list-thumb {
+    margin: 10px 0;
+}
+
+.s180 {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+table.product-storage {
+    border: 1px solid #888;
+    border-collapse: collapse;
+}
+
+form input[type="checkbox"] {
+    width: 30px;
+}
+
+table thead tr td {
+    font-weight: 500;
+    text-align: center;
+    background: rgb(78, 138, 153);
+    color: #fff;
+    padding: 5px;
+}
+
+table tbody tr td {
+    text-align: center;
+    padding: 5px;
+}
+
+table tbody tr:nth-child(even) td {
+    background: #eee;
+}
+
+form input[type="number"] {
+    width: 40%;
+}
+
+ul.product-thumb-show {
+    width: 100%;
+    display: flex;
+    margin: 15px 0;
+}
+
+ul.product-thumb-show li {
+    margin-right: 5px;
+}
+
+ul.product-thumb-show li img {
+    height: 150px;
+    width: 150px;
+}
+
+.step {
+    padding-top: 15px;
+    display: none;
+}
+
+a.btn-next,
+a.btn-back {
+    padding: 5px 15px;
+    color: #fff;
+    background: rgb(78, 138, 153);
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+a.btn-next:hover,
+a.btn-back:hover {
+    background: #e03550;
+}
+
+a.btn-next {
+    float: right;
+    margin-left: 15px;
+}
+
+a.btn-back {
+    float: right;
+}
+
+ul.breadcrumb-add {
+    display: flex;
+    border-bottom: 1px solid rgb(78, 138, 153);
+}
+
+.btn-add {
+    margin-top: 30px;
+    width: 25%;
+    padding: 5px 0;
+    background: rgb(78, 138, 153);
+}
+
+.btn-upload .btn-add:hover {
+    background: #e03550;
+}
+
+ul.breadcrumb-add li {
+    cursor: pointer;
+    margin-right: 2px;
+    padding: 5px 10px;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    transition: all .1s ease-in-out;
+}
+
+ul.breadcrumb-add li:hover {
+    background: #eee;
+}
+
+ul.breadcrumb-add li.active {
+    cursor: default;
+    position: relative;
+    border: 1px solid rgb(78, 138, 153);
+    border-bottom: 1px;
+}
+
+input[type="checkbox"]:focus {
+    box-shadow: none;
+}
+
+ul.breadcrumb-add li.active:hover {
+    background: #fff;
+}
+
+ul.breadcrumb-add li.active::before {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    z-index: 99;
+}
+
+#result {
+    margin: 15px 0;
+}
+
+#result img {
+    width: 100px;
+    height: auto;
+}
+
+button#del {
+    background: #e03550;
+}
+
+button#edit {
+    background: rgb(78, 138, 153);
+}
+
+.bg {
+    background: rgb(78, 138, 153);
+}

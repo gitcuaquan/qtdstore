@@ -1,0 +1,121 @@
+.form {
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 0 8px #eee;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 100%;
+}
+
+#username,
+#password,
+#email,
+#phone,
+#repeat-password {
+    padding: 10px 15px;
+    border: 1px solid rgb(78, 138, 153);
+    width: 100%;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+#phone {
+    float: left;
+    width: 55%;
+}
+
+#first-name,
+#last-name {
+    padding: 10px 15px;
+    border: 1px solid rgb(78, 138, 153);
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+#first-name {
+    float: left;
+    width: 60%;
+}
+
+#last-name {
+    float: right;
+    width: 38%;
+}
+
+#username::placeholder,
+#password::placeholder,
+#first-name::placeholder,
+#last-name::placeholder,
+#email::placeholder,
+#phone::placeholder,
+#repeat-password::placeholder {
+    color: #888;
+}
+
+#username:focus,
+#password:focus,
+#first-name:focus,
+#last-name:focus,
+#email:focus,
+#phone:focus,
+#repeat-password:focus {
+    outline: 2px auto rgb(78, 138, 153);
+}
+
+#gender {
+    float: right;
+    padding: 11px 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(78, 138, 153);
+    border-radius: 3px;
+    color: #888;
+    width: 43%;
+}
+
+#gender:focus {
+    outline: 2px auto rgb(78, 138, 153);
+}
+
+#gender option {
+    color: #000;
+}
+
+.form p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.form form p {
+    display: block;
+    margin: 0;
+}
+
+form p a {
+    display: inline-block;
+}
+
+form p input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+form button {
+    padding: 10px 0;
+    width: 100%;
+    margin: 15px 0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    background: rgb(78, 138, 153);
+}
+
+form button:focus {
+    outline: none;
+    background: #e03550;
+}
+
+label[for="email"] {
+    margin-top: 15px;
+}

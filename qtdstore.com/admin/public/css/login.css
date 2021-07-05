@@ -1,0 +1,57 @@
+body {
+    background: rgb(78, 138, 153);
+}
+
+#wrapper {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px 30px;
+    margin: 200px auto;
+    width: 25%;
+}
+
+form {
+    margin: 0;
+    text-align: center;
+}
+
+form input {
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #888;
+    padding: 5px 10px;
+}
+
+form input:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgb(78, 138, 153);
+}
+
+form button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(78, 138, 153);
+    color: #fff;
+    font-weight: 500;
+    border: none;
+}
+
+form button:focus {
+    outline: none;
+    background: #e03550;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+p.error {
+    margin: 10px 0;
+    text-align: left;
+    color: #e03550;
+}

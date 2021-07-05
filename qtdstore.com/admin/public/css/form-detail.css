@@ -1,0 +1,66 @@
+form {
+    width: 40%;
+}
+
+input {
+    float: right;
+    width: 60%;
+}
+
+select {
+    float: right;
+    width: 60%;
+}
+
+label {
+    float: left;
+}
+
+.more {
+    border-top: 1px solid rgb(177, 177, 177);
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+button {
+    border: none;
+    padding: 5px 0;
+    text-align: center;
+    width: 60px;
+    color: #fff;
+}
+
+#confirm {
+    width: 100px;
+}
+
+.bg {
+    background: rgb(48, 88, 99);
+}
+
+#del {
+    background: #e03550;
+}
+
+#edit,
+#add {
+    background: rgb(78, 138, 153);
+}
+
+#new {
+    background: #e03550;
+    width: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    form {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    form {
+        width: 100%;
+    }
+}

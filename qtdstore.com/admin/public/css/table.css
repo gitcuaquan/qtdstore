@@ -1,0 +1,48 @@
+.list {
+    width: 100%;
+}
+
+.btn-add-new {
+    margin-bottom: 15px;
+}
+
+table {
+    margin: 15px 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead tr td {
+    font-weight: 500;
+    text-align: center;
+    background: rgb(78, 138, 153);
+    color: #fff;
+}
+
+table tbody tr td {
+    text-align: center;
+    padding: 5px;
+}
+
+.price {
+    color: red;
+}
+
+table tbody tr:nth-child(even) td {
+    background: #eee;
+}
+
+@media screen and (max-width: 1200px) {
+    .content {
+        min-height: 0;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    table {
+        width: 918px;
+    }
+    .list {
+        overflow: auto;
+    }
+}
